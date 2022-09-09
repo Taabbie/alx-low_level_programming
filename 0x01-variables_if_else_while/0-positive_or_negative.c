@@ -7,12 +7,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * main - Prints a random number and states whether it is positive,
+/**
+ * main - Entry point
  *
- *        negative, or zero.
- *
- * Return : Always 0.
+ * Return : Always 0 (success/correct)
  */
 int main(void)
 {

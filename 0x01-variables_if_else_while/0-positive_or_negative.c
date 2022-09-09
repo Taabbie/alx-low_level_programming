@@ -8,9 +8,10 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - program determines whether a random number is positive, 
+ * Negative, or zero
  *
- * Return : Always 0 (success/correct)
+ * Return : Always (0) (success/correct)
  */
 int main(void)
 {

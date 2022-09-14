@@ -14,9 +14,13 @@ int main(void)
 	k = 2;
 
 	printf("%lu", j);
-	k = k + j;
-	j = k - j;
 
+	for (i = 1; i < 91; i++)
+	{
+		printf(", %lu", k);
+		k = k + j;
+		j = k - j;
+	}
 		j1 = j / 1000000000;
 		j2 = j % 1000000000;
 		k1 = k / 1000000000;

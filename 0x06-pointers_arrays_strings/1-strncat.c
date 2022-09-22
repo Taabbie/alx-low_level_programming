@@ -1,16 +1,15 @@
 #include "main.h"
 
 /**
- * _strncat - concatenates two strings but will add
- * number of bytes
- * @dest: string to be appended
- * @src: string to be completed at the end of dest
- * @n: integer parameter
+ * _strncat - concatenates n bytes of a string to another
+ * @dest: the destination string
+ * @src: the source string
+ *@n: the number of bytes of src to concatenate
  *
  * Return: new concatenated string
  */
 
-char _strncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i = 0, dest_len = 0;
 

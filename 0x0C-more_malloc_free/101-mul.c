@@ -33,7 +33,7 @@ int _isNumber(char *argv)
 
 /**
  * _calloc - allocate array of size
- *  nmemb.@nmemb: number of elements
+ * @nmemb: number of elements
  *  @size: size of element
  *  Return: pointer to array
  */
